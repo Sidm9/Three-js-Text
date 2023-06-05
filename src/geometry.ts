@@ -92,7 +92,7 @@ fontLoader.load("fonts/helvetiker_regular.typeface.json", (font) => {
   for (let i = 0; i < 50; i++) {
 
 
-    svgLoader.load(`../assets/${techStackList[i % techStackList.length]}`, data => {
+    svgLoader.load(`assets/${techStackList[i % techStackList.length]}`, data => {
       const paths = data.paths;
       const group = new THREE.Group();
 
