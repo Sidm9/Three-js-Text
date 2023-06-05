@@ -1,4 +1,3 @@
-import GUI from 'lil-gui';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
@@ -25,7 +24,6 @@ const sizes = {
 
 const fontLoader = new FontLoader();
 
-const gui = new GUI();
 
 
 const textureLoader = new THREE.TextureLoader()
