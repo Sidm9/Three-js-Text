@@ -168,7 +168,7 @@ fontLoader.load("fonts/helvetiker_regular.typeface.json", (font) => {
 
 
 
-const axis = new THREE.AxesHelper();
+// const axis = new THREE.AxesHelper();
 
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 1000)
 camera.position.x = 1
